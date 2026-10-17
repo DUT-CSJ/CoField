@@ -1,0 +1,23 @@
+{
+  "mode": "image",
+  "data_root": "<DATA_ROOT>",
+  "split_file": "<SPLIT_JSON>",
+  "output_dir": "<OUTPUT_DIR>",
+  "init_checkpoint": "",
+  "classes": 1,
+  "image_size": 256,
+  "epochs": "<EPOCHS>",
+  "batch_size": 16,
+  "weight_decay": 0.01,
+  "warmup_steps": 100,
+  "agreement_weight": 0.1,
+  "boundary_weight": 5.0,
+  "time_beta": [0.3, 0.3],
+  "source_range": [-0.05, 0.05],
+  "distance_radius": 32,
+  "distance_scale": 16.0,
+  "boundary_radius": 2,
+  "workers": 4,
+  "seed": 2025,
+  "amp": true
+}
